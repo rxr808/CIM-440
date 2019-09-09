@@ -33,6 +33,6 @@ arc(mouthX, mouthY, 100, 100, 0, PI); // 0 to 180
 //point 1 (x,y) = 10,10
 //point 2 (x,y) = 20,20
 //point 3 (x,y) = 0,20
-
+//testing
 fill(255); //grayscale
 }
