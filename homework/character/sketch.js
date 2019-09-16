@@ -13,6 +13,24 @@ function setup() {
 
 function draw() {
   // put drawing code here
+
+
+
+  if(mouseX < width/2){
+  //do something
+  console.log("left hand side");
+    background("blue");
+  }
+//mouseX is greater than but including 200 or width/2 --> greater than or less than signs are not inclusive
+  if (mouseX > width/2){
+  console.log("right hand side");
+  background("pink");
+  }
+
+  pointX = mouseX;
+  pointY = mouseY;
+
+
 strokeWeight(1);
 //left eye
 ellipse(200, 200, eyeSize, eyeSize);
