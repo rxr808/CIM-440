@@ -46,7 +46,7 @@ function mousePressed(){
 if(mouseX > hitX[0] && mouseX < hitX[0] + hitSize && mouseY > hitY[0] && mouseY < hitY[0] + hitSize){
   console.log("Button 0");
   currentImage = currentImage + 1;
-  if(currentImage == 4){
+  if(currentImage == 5){
     currentImage = 0;
 
 
